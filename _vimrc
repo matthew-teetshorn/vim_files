@@ -65,6 +65,9 @@ set display+=lastline
 
 set lazyredraw
 
+" Don't wrap lines
+set nowrap
+
 " Map FullscreenToggle
 nnoremap <leader>f :FullscreenToggle <cr>
 
