@@ -33,7 +33,6 @@ hi SpecialKey   guifg=#404040 guibg=#101010 gui=none ctermfg=244 ctermbg=236
 
 " Syntax highlighting
 hi Comment    guifg=#808080 gui=italic ctermfg=244
-hi Todo       guifg=#8f8f8f gui=italic ctermfg=245
 hi Boolean    guifg=#b1d631 gui=none ctermfg=148
 hi String     guifg=#b1d631 gui=italic ctermfg=148
 hi Identifier guifg=#b1d631 gui=none ctermfg=148
@@ -45,4 +44,6 @@ hi Constant   guifg=#ff9800 gui=none  ctermfg=208
 hi Number     guifg=#ff9800 gui=none ctermfg=208
 hi Special    guifg=#ff9800 gui=none ctermfg=208
 hi PreProc    guifg=#ddc4ee gui=none ctermfg=230
-hi Todo       guifg=#a0a0a0 guibg=#404040 gui=italic
+hi Todo       guifg=#eea0a0 guibg=#404040 gui=italic
+hi Note       guifg=#a0eea0 guibg=#404040 gui=italic
+hi Important  guifg=#eeeea0 guibg=#404040 gui=italic
