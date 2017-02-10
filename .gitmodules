@@ -1,0 +1,3 @@
+[submodule "vimfiles/bundle/vaxe"]
+	path = vimfiles/bundle/vaxe
+	url = https://github.com/jdonaldson/vaxe.git
